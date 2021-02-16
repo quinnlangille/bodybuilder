@@ -337,5 +337,14 @@ bodybuilder()
     .build()
 
 bodybuilder()
+    .aggregation('sum', '', { _name: 'customName', _meta: {} })
+    .build()
+
+bodybuilder()
+    .suggest('term', 'field', { text: 'this is text', analyzer: 'english' })
+    .suggest('phrase', 'field', { text: 'this is text', size: 1, gram_size: 2 })
+    .build()
+
+bodybuilder()
     .clone()
     .size(1)

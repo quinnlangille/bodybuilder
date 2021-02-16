@@ -1,6 +1,6 @@
 {
   "name": "bodybuilder",
-  "version": "2.2.25",
+  "version": "2.3.0",
   "description": "An elasticsearch query body builder.",
   "main": "lib/index.js",
   "typings": "./bodybuilder.d.ts",
@@ -54,7 +54,7 @@
     "tap-spec": "4.1.1",
     "tape": "4.8.0",
     "tape-watch": "2.3.0",
-    "typescript": "2.7.2",
+    "typescript": "^4.1.3",
     "webpack": "1.12.13"
   },
   "dependencies": {
